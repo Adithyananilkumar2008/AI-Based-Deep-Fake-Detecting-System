@@ -1,0 +1,6 @@
+{
+  "name": "Deepfake Detector",
+  "description": "On-device image forensics and deepfake analysis suite using Error Level Analysis, noise residuals, and metadata inspection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

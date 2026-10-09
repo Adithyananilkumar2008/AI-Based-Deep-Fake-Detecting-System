@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "ScanRecord": {
+      "collection": "users/{userId}/scans",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "timestamp": { "type": "number" },
+        "mediaType": { "type": "string" },
+        "imageLabel": { "type": "string" },
+        "syntheticRiskScore": { "type": "number" },
+        "riskLevel": { "type": "string" },
+        "elaScore": { "type": "number" },
+        "summary": { "type": "string" },
+        "isPreset": { "type": "boolean" }
+      }
+    },
+    "UserProfile": {
+      "collection": "users",
+      "fields": {
+        "userId": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "createdAt": { "type": "number" },
+        "lastActive": { "type": "number" }
+      }
+    }
+  }
+}

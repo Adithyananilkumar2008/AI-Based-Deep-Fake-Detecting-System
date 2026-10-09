@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-deepfake-13dda6bc-295c-40ec-bf7d-4b3f96ab8d84",
+      "rules": "firestore.rules"
+    }
+  ]
+}
